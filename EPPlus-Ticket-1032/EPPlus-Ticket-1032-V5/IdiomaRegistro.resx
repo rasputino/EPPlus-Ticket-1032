@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualizarResumen" xml:space="preserve">
+    <value>Actualizar resumen</value>
+  </data>
+  <data name="AdmiteFacturas" xml:space="preserve">
+    <value>Admite facturas</value>
+  </data>
+  <data name="AltaDeAsiento" xml:space="preserve">
+    <value>Alta de asiento</value>
+  </data>
+  <data name="AltaDeNuevoAsiento" xml:space="preserve">
+    <value>Alta de nuevo asiento</value>
+  </data>
+  <data name="AltaPendiente" xml:space="preserve">
+    <value>Alta pendiente</value>
+  </data>
+  <data name="AnadirAnexo" xml:space="preserve">
+    <value>Añadir anexo</value>
+  </data>
+  <data name="AnadirAnexoAntiguo" xml:space="preserve">
+    <value>Añadir anexo antiguo</value>
+  </data>
+  <data name="AnadirAsunto" xml:space="preserve">
+    <value>Añadir asunto</value>
+  </data>
+  <data name="AnadirContenedor" xml:space="preserve">
+    <value>Añadir destino</value>
+  </data>
+  <data name="AnadirContenedorOrigen" xml:space="preserve">
+    <value>Añadir Origen</value>
+  </data>
+  <data name="AnadirDestinatario" xml:space="preserve">
+    <value>Añadir destinatario</value>
+  </data>
+  <data name="AnadirRemitente" xml:space="preserve">
+    <value>Añadir remitente</value>
+  </data>
+  <data name="AnadirServicio" xml:space="preserve">
+    <value>Añadir servicio</value>
+  </data>
+  <data name="Anexos" xml:space="preserve">
+    <value>Anexos</value>
+  </data>
+  <data name="AntiguoSeres" xml:space="preserve">
+    <value>Antiguo SERES</value>
+  </data>
+  <data name="Archivado" xml:space="preserve">
+    <value>Archivado</value>
+  </data>
+  <data name="ArchivadoObservaciones" xml:space="preserve">
+    <value>Observaciones archivo</value>
+  </data>
+  <data name="Asunto" xml:space="preserve">
+    <value>Asunto</value>
+  </data>
+  <data name="AsuntoFacturacion" xml:space="preserve">
+    <value>Asunto facturación</value>
+  </data>
+  <data name="AsuntoNoCoincideConNingunDestino" xml:space="preserve">
+    <value>El asunto seleccionado no pertenece a ninguno de los destinos seleccionados</value>
+  </data>
+  <data name="Asuntos" xml:space="preserve">
+    <value>Asuntos</value>
+  </data>
+  <data name="AutoEnvioCorreoPresencial" xml:space="preserve">
+    <value>Envío automático de correo al remitente</value>
+  </data>
+  <data name="AvisoPreEscaneo" xml:space="preserve">
+    <value>Para poder escanear directamente un documento debe tener un escáner TWAIN compatible y tener instalada la aplicación</value>
+  </data>
+  <data name="BuscadorDepartamento" xml:space="preserve">
+    <value>Buscador departamento</value>
+  </data>
+  <data name="BuscadorEntidad" xml:space="preserve">
+    <value>Buscador entidad</value>
+  </data>
+  <data name="BuscadorMunicipio" xml:space="preserve">
+    <value>Buscador municipio</value>
+  </data>
+  <data name="BuscadorProvincia" xml:space="preserve">
+    <value>Buscador provincia</value>
+  </data>
+  <data name="BuscarPorNombreNif" xml:space="preserve">
+    <value>Buscar por número de asiento, persona (NIF o nombre) o resumen</value>
+  </data>
+  <data name="BuscarPorNombreNifIdentificador" xml:space="preserve">
+    <value>Puede buscar por NIF, nombre o identificador</value>
+  </data>
+  <data name="BusquedaDeDestinos" xml:space="preserve">
+    <value>Búsqueda de destinos</value>
+  </data>
+  <data name="BusquedaDeEntradas" xml:space="preserve">
+    <value>Búsqueda de entradas</value>
+  </data>
+  <data name="BusquedaDeSalidas" xml:space="preserve">
+    <value>Búsqueda de salidas</value>
+  </data>
+  <data name="BusquedaPorOficinaODestino" xml:space="preserve">
+    <value>Búsqueda por oficina u origen/destino</value>
+  </data>
+  <data name="CanalContacto" xml:space="preserve">
+    <value>Canal de contacto</value>
+  </data>
+  <data name="CodigoEniInvalido" xml:space="preserve">
+    <value>El formato ENI no es válido. El formato debe cumplir el siguiente formato: [Idioma (2 caracteres ISO 639-1)]_[Órgano (Dir3)]_[AAAA (Ejercicio)]_[ID_específico]. Por ejemplo: ES_L02000002_2020_DOC_123456</value>
+  </data>
+  <data name="CodigoSia" xml:space="preserve">
+    <value>Código SIA</value>
+  </data>
+  <data name="ComparecenciaElectronica" xml:space="preserve">
+    <value>Comparecencia electrónica</value>
+  </data>
+  <data name="Compl" xml:space="preserve">
+    <value>Compl.</value>
+  </data>
+  <data name="Completado" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="Completo" xml:space="preserve">
+    <value>Completo</value>
+  </data>
+  <data name="ConDocumentos" xml:space="preserve">
+    <value>Con documentos</value>
+  </data>
+  <data name="ConfirmacionPdteFirma" xml:space="preserve">
+    <value>Atención: solo se debe poner como firmado manualmente por el operador del registro cuando se haya presentado una instancia y no se pueda firmar mediante certificado ni biométricamente (porque sea una persona física sin NIF ni NIE). En este caso hay que imprimir la instancia presentada, firmarla de forma manuscrita y escanearla como solicitud con validez jurídica.</value>
+  </data>
+  <data name="Contenedor" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="ContenedorDeDestino" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="ContenedoresDeDestino" xml:space="preserve">
+    <value>Destinos</value>
+  </data>
+  <data name="ContenedoresDeOrigen" xml:space="preserve">
+    <value>Origen</value>
+  </data>
+  <data name="Contenido" xml:space="preserve">
+    <value>Contenido</value>
+  </data>
+  <data name="ConvertirANuevoRegistro" xml:space="preserve">
+    <value>Convertir a nuevo registro</value>
+  </data>
+  <data name="CopiaAutentica" xml:space="preserve">
+    <value>Copia auténtica</value>
+  </data>
+  <data name="CopiaEscaneada" xml:space="preserve">
+    <value>Copia escaneada</value>
+  </data>
+  <data name="CorreoElectronicoAdministrador" xml:space="preserve">
+    <value>Correo electrónico administración</value>
+  </data>
+  <data name="CorreoElectronicoAsientosAsignados" xml:space="preserve">
+    <value>Correo electrónico envío diario de registros</value>
+  </data>
+  <data name="CreacionRemiteDestino" xml:space="preserve">
+    <value>Creación remite destino</value>
+  </data>
+  <data name="CrearNuevoAsunto" xml:space="preserve">
+    <value>Crear nuevo asunto</value>
+  </data>
+  <data name="DatosGenerales" xml:space="preserve">
+    <value>Datos generales</value>
+  </data>
+  <data name="DebeIndicarElMunicipioODescripcionAdicional" xml:space="preserve">
+    <value>Debe indicar el municipio o una descripción adicional si el asiento es presencial</value>
+  </data>
+  <data name="DebeIndicarFechaDocumento" xml:space="preserve">
+    <value>Debe indicar una fecha de documento</value>
+  </data>
+  <data name="DebeIndicarUnImporte" xml:space="preserve">
+    <value>Debe indicar un importe</value>
+  </data>
+  <data name="DebeIndicarUnNumero" xml:space="preserve">
+    <value>Debe indicar un número</value>
+  </data>
+  <data name="DebeIndicarUnRemitenteValido0" xml:space="preserve">
+    <value>Debe indicar un remitente válido si quiere registrar una factura. {0}</value>
+  </data>
+  <data name="DemasiadasMayusculas" xml:space="preserve">
+    <value>Se recomienda que el texto de resumen tenga un máximo de un {0}% de mayúsculas</value>
+  </data>
+  <data name="DepartamentoDestino" xml:space="preserve">
+    <value>Departamento destino</value>
+  </data>
+  <data name="DepartamentoOrigen" xml:space="preserve">
+    <value>Departamento origen</value>
+  </data>
+  <data name="DescargarTodos" xml:space="preserve">
+    <value>Descargar todos</value>
+  </data>
+  <data name="DescargarTodosLosAnexos" xml:space="preserve">
+    <value>Descargar todos los anexos. Sólo se decargarán aquellos que ya hayan sido subidos tras guardar el registro.</value>
+  </data>
+  <data name="DescripcionAdicionalProcedencia" xml:space="preserve">
+    <value>Descripción adicional</value>
+  </data>
+  <data name="DescripcionAnexoAntiguo" xml:space="preserve">
+    <value>Este diálogo le permite añadir anexos que han sido añadidos por los remitentes de este registro en registros antiguos</value>
+  </data>
+  <data name="DescripcionRegistroEnviado" xml:space="preserve">
+    <value>El registro se envío el {0} mediante {1}</value>
+  </data>
+  <data name="DescripciónAnexo" xml:space="preserve">
+    <value>Descripción anexo</value>
+  </data>
+  <data name="DeseaExportar" xml:space="preserve">
+    <value>¿Desea exportar {0} resultados?</value>
+  </data>
+  <data name="Destinatario" xml:space="preserve">
+    <value>Destinatario</value>
+  </data>
+  <data name="DestinoNoAdmiteAsientosDeRegistro" xml:space="preserve">
+    <value>Los destinos {0} no admiten asientos de registro</value>
+  </data>
+  <data name="DestinoNoAdmiteDocumentos" xml:space="preserve">
+    <value>Los destinos {0} no admiten documentos</value>
+  </data>
+  <data name="DestinoRepetido" xml:space="preserve">
+    <value>Existen destinos repetidos</value>
+  </data>
+  <data name="Devuelto" xml:space="preserve">
+    <value>Devuelto</value>
+  </data>
+  <data name="DevueltoParcialOCompletamente" xml:space="preserve">
+    <value>Parcial o completamente devuelto</value>
+  </data>
+  <data name="Dir3DeDestino" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="DirContacto" xml:space="preserve">
+    <value>Dirección de contacto</value>
+  </data>
+  <data name="DireccionElectronica" xml:space="preserve">
+    <value>Dir. elect. (DEH)</value>
+  </data>
+  <data name="DireccionPostal" xml:space="preserve">
+    <value>Dirección postal</value>
+  </data>
+  <data name="DireccionRemitente" xml:space="preserve">
+    <value>Dirección remitente</value>
+  </data>
+  <data name="DireccionRepresentante" xml:space="preserve">
+    <value>Dirección representante</value>
+  </data>
+  <data name="DocumentoAFirmar" xml:space="preserve">
+    <value>Documento a firmar</value>
+  </data>
+  <data name="DocumentoAnexo" xml:space="preserve">
+    <value>Documento anexo</value>
+  </data>
+  <data name="DocumentosAnexos" xml:space="preserve">
+    <value>Documentos anexos</value>
+  </data>
+  <data name="EditarAsuntos" xml:space="preserve">
+    <value>Editar asuntos</value>
+  </data>
+  <data name="ElDestinoNoPermiteEnviarSeria" xml:space="preserve">
+    <value>Esta entidad no tiene permitido enviar mediante SERIA</value>
+  </data>
+  <data name="ElDestinoNoPermiteRecibirSeria" xml:space="preserve">
+    <value>La unidad orgánica destinataria no permite recibir mediante SERIA</value>
+  </data>
+  <data name="ElDestinoNoPuedeSerLaPropiaEntidad" xml:space="preserve">
+    <value>El destino no puede ser la propia entidad</value>
+  </data>
+  <data name="ElijaUnCanalDeEnvio" xml:space="preserve">
+    <value>Elija un canal de envío</value>
+  </data>
+  <data name="ElRegistroNoEsDe0" xml:space="preserve">
+    <value>El registro no es de {0}</value>
+  </data>
+  <data name="ElRegistroNoPerteneceALaEntidad0" xml:space="preserve">
+    <value>El registro no pertenece a la entidad {0}</value>
+  </data>
+  <data name="ElRegistroNoSePuedeEnviar" xml:space="preserve">
+    <value>El registro no se puede enviar</value>
+  </data>
+  <data name="ElRegistroSeEnviaraA0" xml:space="preserve">
+    <value>El registro se enviará a {0}</value>
+  </data>
+  <data name="ElSolicitante" xml:space="preserve">
+    <value>El solicitante</value>
+  </data>
+  <data name="EnlaceUniversal" xml:space="preserve">
+    <value>Vista externa</value>
+  </data>
+  <data name="EnlaceValidoHasta" xml:space="preserve">
+    <value>Enlace válido hasta:</value>
+  </data>
+  <data name="EntidadDestino" xml:space="preserve">
+    <value>Entidad de destino</value>
+  </data>
+  <data name="EntidadOrigen" xml:space="preserve">
+    <value>Entidad de origen</value>
+  </data>
+  <data name="EntidadPropia" xml:space="preserve">
+    <value>Entidad propia</value>
+  </data>
+  <data name="EntradaConDir3YContenedorSimultaneo" xml:space="preserve">
+    <value>La entrada tiene un destino de la propia entidad y una unidad orgánica externa simultáneamente.</value>
+  </data>
+  <data name="EntradaSinDir3YContenedorSimultaneo" xml:space="preserve">
+    <value>La entrada debe tener, al menos, un destino de la entidad actual definido o bien una unidad orgánica externa.</value>
+  </data>
+  <data name="EnviadaAnteriormente" xml:space="preserve">
+    <value>Enviada anteriormente</value>
+  </data>
+  <data name="Enviado" xml:space="preserve">
+    <value>Enviado</value>
+  </data>
+  <data name="Enviar" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="ErrorHayQueMarcarCausaArchivo" xml:space="preserve">
+    <value>Se debe indicar una causa del archivado</value>
+  </data>
+  <data name="ErrorRegistrarSinDocumentos" xml:space="preserve">
+    <value>No se puede registrar sin documentos anexos o sin Expone/Solicita</value>
+  </data>
+  <data name="ErrorSinContenedores" xml:space="preserve">
+    <value>Debe existir, al menos, un destino</value>
+  </data>
+  <data name="ErrorSinRemitentes" xml:space="preserve">
+    <value>Debe existir, al menos, un remitente</value>
+  </data>
+  <data name="EscanearDocumento" xml:space="preserve">
+    <value>Escanear documento</value>
+  </data>
+  <data name="EscojaUnFirmante" xml:space="preserve">
+    <value>Escoja un remitente como titular de la firma.</value>
+  </data>
+  <data name="EsNecesarioIntroducir3CaracteresNodo" xml:space="preserve">
+    <value>*Es necesario introducir al menos 3 caracteres del nombre de un destino</value>
+  </data>
+  <data name="EstadoElaboracionEni" xml:space="preserve">
+    <value>Estado de elaboración (ENI)</value>
+  </data>
+  <data name="EstaEntidadNoAdmiteFacturas" xml:space="preserve">
+    <value>Esta entidad no admite facturación</value>
+  </data>
+  <data name="ExpedientesAsociados" xml:space="preserve">
+    <value>Expedientes asociados</value>
+  </data>
+  <data name="Expone" xml:space="preserve">
+    <value>Expone</value>
+  </data>
+  <data name="ExponeSolicita" xml:space="preserve">
+    <value>Expone/Solicita</value>
+  </data>
+  <data name="ExportacionConDocumentosExplicacion" xml:space="preserve">
+    <value>Además se añade un enlace visible por cualquier persona de un resumen del registro con enlaces a los documentos. Por seguridad sólo se generan los primeros 100 enlaces.</value>
+  </data>
+  <data name="ExportacionSencillaExplicacion" xml:space="preserve">
+    <value>Además se añade un enlace visible por cualquier persona de un resumen del registro donde no se visualiza información LOPD o documentos. Por seguridad sólo se generan los primeros 100 enlaces.</value>
+  </data>
+  <data name="ExportacionSinEnlaceExplicacion" xml:space="preserve">
+    <value>Exportar una hoja de cálculo con información de los registros filtrados actualmente.</value>
+  </data>
+  <data name="ExportacionSoloDocumentosUnidosExplicacion" xml:space="preserve">
+    <value>Exporta un PDF que fusiona los anexos de los registros filtrados. Por seguridad y rendimiento sólo se genera el documento de los primeros {0} registros.</value>
+  </data>
+  <data name="ExtensionNoValida" xml:space="preserve">
+    <value>Extensión no válida</value>
+  </data>
+  <data name="Factura" xml:space="preserve">
+    <value>Factura</value>
+  </data>
+  <data name="FechaArchivado" xml:space="preserve">
+    <value>Fecha de archivado</value>
+  </data>
+  <data name="FechaDeInclusion" xml:space="preserve">
+    <value>Fecha de inclusión</value>
+  </data>
+  <data name="FechaDevuelto" xml:space="preserve">
+    <value>Fecha de devolución</value>
+  </data>
+  <data name="FechaDocumento" xml:space="preserve">
+    <value>Fecha documento</value>
+  </data>
+  <data name="FechaEnvio" xml:space="preserve">
+    <value>Fecha de envío</value>
+  </data>
+  <data name="FechaGrabacion" xml:space="preserve">
+    <value>Fecha grabación</value>
+  </data>
+  <data name="FechaHoraJustificante" xml:space="preserve">
+    <value>Fecha y hora del justificante</value>
+  </data>
+  <data name="FechaHoraValidez" xml:space="preserve">
+    <value>Fecha y hora de validez</value>
+  </data>
+  <data name="FechaJustificante" xml:space="preserve">
+    <value>Fecha justificante</value>
+  </data>
+  <data name="FechaValidez" xml:space="preserve">
+    <value>Fecha validez</value>
+  </data>
+  <data name="FechaValidezOrigen" xml:space="preserve">
+    <value>Fecha validez de origen</value>
+  </data>
+  <data name="FiltroDesactivado" xml:space="preserve">
+    <value>Filtro desactivado</value>
+  </data>
+  <data name="FirmaBiometrica" xml:space="preserve">
+    <value>Firma biométrica</value>
+  </data>
+  <data name="FirmadoSecretario" xml:space="preserve">
+    <value>Firmado por secretario</value>
+  </data>
+  <data name="FirmaExponeSolicita" xml:space="preserve">
+    <value>Firmado {0}</value>
+  </data>
+  <data name="Firmar" xml:space="preserve">
+    <value>Firmar</value>
+  </data>
+  <data name="GenerarNuevoJustificante" xml:space="preserve">
+    <value>Generar nuevo justificante</value>
+  </data>
+  <data name="GuardarRegistro" xml:space="preserve">
+    <value>Guardar registro</value>
+  </data>
+  <data name="HoraJustificante" xml:space="preserve">
+    <value>Hora justificante</value>
+  </data>
+  <data name="HoraValidez" xml:space="preserve">
+    <value>Hora validez</value>
+  </data>
+  <data name="HuboUnErrorSubiendoLosFicheros" xml:space="preserve">
+    <value>Hubo un error subiendo los ficheros, por favor, vuelva a intentarlo con los siguientes ficheros.</value>
+  </data>
+  <data name="IdentificadorAnexo" xml:space="preserve">
+    <value>Id. anexo</value>
+  </data>
+  <data name="IdentificadorEni" xml:space="preserve">
+    <value>Identificador ENI de documento origen</value>
+  </data>
+  <data name="IdentificadorRemitente" xml:space="preserve">
+    <value>Id. remitente</value>
+  </data>
+  <data name="IdentificadorRepresentante" xml:space="preserve">
+    <value>Id. representante</value>
+  </data>
+  <data name="ImporteFactura" xml:space="preserve">
+    <value>Importe de factura</value>
+  </data>
+  <data name="Incompleto" xml:space="preserve">
+    <value>Incompleto</value>
+  </data>
+  <data name="IndiqueLaDescripcionDelNuevoAsunto" xml:space="preserve">
+    <value>Indique la descripción del nuevo asunto. Si elige un servicio se asociará al servicio, en caso contrario será un asunto global.</value>
+  </data>
+  <data name="InstanciaTelematicaSinProcedencia" xml:space="preserve">
+    <value>Instancia telemática sin procedencia</value>
+  </data>
+  <data name="InstanciaTramite" xml:space="preserve">
+    <value>Instancia trámite</value>
+  </data>
+  <data name="JustificanteDeEntrada" xml:space="preserve">
+    <value>Justificante de entrada</value>
+  </data>
+  <data name="JustificanteDeSalida" xml:space="preserve">
+    <value>Justificante de salida</value>
+  </data>
+  <data name="JustificanteFirmado" xml:space="preserve">
+    <value>Justificante firmado</value>
+  </data>
+  <data name="JustificanteMasReciente" xml:space="preserve">
+    <value>Justificante más reciente</value>
+  </data>
+  <data name="LabelIdAnexoJustificante" xml:space="preserve">
+    <value>CSV o Identificador</value>
+  </data>
+  <data name="LaFechaNoPuedeSerMayorQueHoy" xml:space="preserve">
+    <value>La fecha no puede ser mayor que hoy</value>
+  </data>
+  <data name="LaUnidad0NoPuedeSerDestinatariaAunqueSiLoPuedeSer1" xml:space="preserve">
+    <value>La unidad {0} no puede ser destinataria aunque sí lo puede ser la unidad superior {1}. Cambie la unidad de destino, guarde el registro y vuelva a intentarlo.</value>
+  </data>
+  <data name="LaUnidadOrganicaDeDestinoDebeSerDeLaMismaProvincia" xml:space="preserve">
+    <value>La unidad orgánica de destino debe ser de la misma provincia</value>
+  </data>
+  <data name="LeidoTramitacion" xml:space="preserve">
+    <value>Leído tramitación</value>
+  </data>
+  <data name="LugarExponeSolicita" xml:space="preserve">
+    <value>En {0} a {1}</value>
+  </data>
+  <data name="MaximoDeMayusculas" xml:space="preserve">
+    <value>El máximo de mayúsculas es del {0}%</value>
+  </data>
+  <data name="MedioEnvio" xml:space="preserve">
+    <value>Medio de envío</value>
+  </data>
+  <data name="MostrarDeshabilitados" xml:space="preserve">
+    <value>Mostrar deshabilitados</value>
+  </data>
+  <data name="MunicipioProcedencia" xml:space="preserve">
+    <value>Municipio procedencia</value>
+  </data>
+  <data name="NecesitaUn0" xml:space="preserve">
+    <value>Necesita un {0}</value>
+  </data>
+  <data name="NifArchivante" xml:space="preserve">
+    <value>NIF archivante</value>
+  </data>
+  <data name="NoAdmiteAsientosDeRegistro" xml:space="preserve">
+    <value>No admite asientos de registro</value>
+  </data>
+  <data name="NoAdmiteDocumentos" xml:space="preserve">
+    <value>No admite documentos</value>
+  </data>
+  <data name="NoExisteAsuntoFacturacionDesignado" xml:space="preserve">
+    <value>No existe un asunto de facturación designado</value>
+  </data>
+  <data name="NoExisteNingunFisico" xml:space="preserve">
+    <value>Al no existir ningún remitente que sea persona física no se puede realizar la firma biométrica.</value>
+  </data>
+  <data name="NoExisteNingunMetodoDeEnvioDisponible" xml:space="preserve">
+    <value>No existe ningún método de envío disponible.</value>
+  </data>
+  <data name="NoPuedeSer0" xml:space="preserve">
+    <value>No puede ser 0</value>
+  </data>
+  <data name="NoPuedeSerVacioSiEstaRegistrado" xml:space="preserve">
+    <value>No puede ser vacío si está registrado</value>
+  </data>
+  <data name="NoSeHaIndicadoCifYRazonSocial" xml:space="preserve">
+    <value>No se han indicado los datos obligatorios del proveedor (CIF y razón social)</value>
+  </data>
+  <data name="NoSeIndicoMunicipioRemitente" xml:space="preserve">
+    <value>No se indicó municipio remitente</value>
+  </data>
+  <data name="NoSePuedeEliminarTieneExpedientesAsociados" xml:space="preserve">
+    <value>No se puede eliminar. Tiene expedientes asociados {0}</value>
+  </data>
+  <data name="NoSePuedeRegistrarBiometricamenteSiNoHayPersonaFisica" xml:space="preserve">
+    <value>Para registrar una entrada con Expone/Solicita debe haber al menos una personalidad física para poder firmar</value>
+  </data>
+  <data name="NoTienePermisosDeEdicionEnLaOficina0" xml:space="preserve">
+    <value>No tiene permisos de edición en la oficina {0}</value>
+  </data>
+  <data name="NoTieneUnidadOrganicaComoDestino" xml:space="preserve">
+    <value>No tiene unidad orgánica como destino</value>
+  </data>
+  <data name="Notificacion" xml:space="preserve">
+    <value>Notificación</value>
+  </data>
+  <data name="Num" xml:space="preserve">
+    <value>Núm.</value>
+  </data>
+  <data name="NumeroDeTransporte" xml:space="preserve">
+    <value>Nº de transporte</value>
+  </data>
+  <data name="NumeroRcf" xml:space="preserve">
+    <value>Nº RCF</value>
+  </data>
+  <data name="NumExpedienteSegex" xml:space="preserve">
+    <value>Código de expediente SEGEX</value>
+  </data>
+  <data name="NumFactura" xml:space="preserve">
+    <value>Nº de factura</value>
+  </data>
+  <data name="NumReg" xml:space="preserve">
+    <value>Número de registro</value>
+  </data>
+  <data name="Oficina" xml:space="preserve">
+    <value>Oficina</value>
+  </data>
+  <data name="OficinaDeRegistro" xml:space="preserve">
+    <value>Oficina de registro</value>
+  </data>
+  <data name="OficinaDeRegistroPredeterminada" xml:space="preserve">
+    <value>Oficina de registro predeterminada</value>
+  </data>
+  <data name="OficinasDeRegistro" xml:space="preserve">
+    <value>Oficinas de registro</value>
+  </data>
+  <data name="OtrosCampos" xml:space="preserve">
+    <value>Otros campos</value>
+  </data>
+  <data name="PaisProcedencia" xml:space="preserve">
+    <value>País de procedencia</value>
+  </data>
+  <data name="PendienteDeDespachar" xml:space="preserve">
+    <value>Pendiente de despachar</value>
+  </data>
+  <data name="PendienteFirmaSolicitante" xml:space="preserve">
+    <value>Pendiente de firma</value>
+  </data>
+  <data name="Persona" xml:space="preserve">
+    <value>Persona</value>
+  </data>
+  <data name="PlaceHolderBuscadorContenedores" xml:space="preserve">
+    <value>Introduzca, al menos, tres caracteres para buscar un destino</value>
+  </data>
+  <data name="PlaceHolderDir3ONombre" xml:space="preserve">
+    <value>Buscar por Dir3 o nombre. Puede usar los comodines * (varios caracteres) o ? (un caracter)</value>
+  </data>
+  <data name="PonerComoFirmado" xml:space="preserve">
+    <value>Poner como firmado</value>
+  </data>
+  <data name="PreferenciaDeComunicacion" xml:space="preserve">
+    <value>Preferencia de comunicación</value>
+  </data>
+  <data name="Presencial" xml:space="preserve">
+    <value>Presencial</value>
+  </data>
+  <data name="Procedencia" xml:space="preserve">
+    <value>Procedencia</value>
+  </data>
+  <data name="ProcedenciaEstablecidaAutomaticamente" xml:space="preserve">
+    <value>Procedencia establecida automáticamente</value>
+  </data>
+  <data name="ProvinciaProcedencia" xml:space="preserve">
+    <value>Provincia de procedencia</value>
+  </data>
+  <data name="PuedeUsarEsteCodigoEnElBuscadorPrincipal" xml:space="preserve">
+    <value>Puede usar este código en el buscador principal</value>
+  </data>
+  <data name="Registrar" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="RegistroDe" xml:space="preserve">
+    <value>Registro de</value>
+  </data>
+  <data name="RegistroDeEntradaAsociado" xml:space="preserve">
+    <value>Registro de entrada asociado</value>
+  </data>
+  <data name="RegistroDeSalidaAsociado" xml:space="preserve">
+    <value>Registro de salida asociado</value>
+  </data>
+  <data name="RegistroEnlaceSeria" xml:space="preserve">
+    <value>Registro enlace SERIA</value>
+  </data>
+  <data name="RegistroEnvioAsociado" xml:space="preserve">
+    <value>Identificador del registro enviado</value>
+  </data>
+  <data name="RemiteDestinoOld" xml:space="preserve">
+    <value>Remite destino antiguo</value>
+  </data>
+  <data name="Remitente" xml:space="preserve">
+    <value>Remitente</value>
+  </data>
+  <data name="RemitenteCompleto" xml:space="preserve">
+    <value>Remitente completo</value>
+  </data>
+  <data name="Remitentes" xml:space="preserve">
+    <value>Remitentes</value>
+  </data>
+  <data name="ResolucionPpp" xml:space="preserve">
+    <value>Resolución PPP</value>
+  </data>
+  <data name="ResultadoEnvio" xml:space="preserve">
+    <value>Resultado de envío</value>
+  </data>
+  <data name="SalidaConDir3YPersonaSimultanea" xml:space="preserve">
+    <value>La salida no puede tener definidos una unidad orgánica u oficina (Dir3) y un persona física o jurídica (CIF/NIF) como destinos simultáneamente</value>
+  </data>
+  <data name="SalidaSinDir3YPersonaSimultanea" xml:space="preserve">
+    <value>La salida debe tener, al menos, una persona física o jurídica o una unidad orgánica u oficina si está registrada</value>
+  </data>
+  <data name="SeAnadeElDestino0AsociadoAlAsunto1" xml:space="preserve">
+    <value>Se añade el destino {0} asociado al asunto {1}</value>
+  </data>
+  <data name="Servicio" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="ServicioAsociado" xml:space="preserve">
+    <value>Servicio asociado</value>
+  </data>
+  <data name="ServiciosDeDestino" xml:space="preserve">
+    <value>Servicios de destino</value>
+  </data>
+  <data name="ServicioWebExterno" xml:space="preserve">
+    <value>Servicio web externo</value>
+  </data>
+  <data name="SiEstadoElaboracionTieneEseValorIdDocEniDebeEstarRelleno" xml:space="preserve">
+    <value>Si Estado de Elaboración tiene el valor {0} el campo {1} debe estar relleno</value>
+  </data>
+  <data name="SinEnlace" xml:space="preserve">
+    <value>Sin enlace</value>
+  </data>
+  <data name="SinFechaDeCompletado" xml:space="preserve">
+    <value>Sin fecha de completo. Se establecerá cuando se guarde.</value>
+  </data>
+  <data name="Sir" xml:space="preserve">
+    <value>SIR</value>
+  </data>
+  <data name="Solicita" xml:space="preserve">
+    <value>Solicita</value>
+  </data>
+  <data name="SoloDocumentosUnidos" xml:space="preserve">
+    <value>Sólo documentos unidos</value>
+  </data>
+  <data name="SoloPuedeHaberUno" xml:space="preserve">
+    <value>Sólo puede haber uno</value>
+  </data>
+  <data name="SufijoRemiteDestino" xml:space="preserve">
+    <value>Sufijo remitente</value>
+  </data>
+  <data name="SuNavegadorNoSoportaIframes" xml:space="preserve">
+    <value>Su navegador no soporta iframes. No se podrá previsualizar el documento a firmar</value>
+  </data>
+  <data name="SusceptibleDeEnvio" xml:space="preserve">
+    <value>Este registro se ha registrado y es susceptible de ser enviado. Para enviar el registro pulse el botón «Enviar» en el botón habilitado para ello.</value>
+  </data>
+  <data name="Telematico" xml:space="preserve">
+    <value>Telemático</value>
+  </data>
+  <data name="TextoExplicativoFirmaBiometrica" xml:space="preserve">
+    <value>Al haber compuesto un EXPONE/SOLICITA se debe firmar biométricamente el justificante.</value>
+  </data>
+  <data name="TipoDeValidez" xml:space="preserve">
+    <value>Tipo de validez</value>
+  </data>
+  <data name="TipoDocumentalEni" xml:space="preserve">
+    <value>Tipo documental (ENI)</value>
+  </data>
+  <data name="TipoEntidad" xml:space="preserve">
+    <value>Tipo de entidad</value>
+  </data>
+  <data name="TipoTransporte" xml:space="preserve">
+    <value>Tipo de transporte</value>
+  </data>
+  <data name="ToolTipAbreDocumentoNuevaVentana" xml:space="preserve">
+    <value>Abre el anexo en una nueva ventana</value>
+  </data>
+  <data name="ToolTipAdmiteFacturacion" xml:space="preserve">
+    <value>Indica si esta entidad admite poder especificar como facturas las entradas de registro. Esta opción se puede marcar para entidades que tengan SEFACE.</value>
+  </data>
+  <data name="ToolTipAltaPendiente" xml:space="preserve">
+    <value>Guardará el registro actual pero no lo registrará en el caso de que se quieran hacer modificaciones en el futuro</value>
+  </data>
+  <data name="ToolTipAsuntoFacturacion" xml:space="preserve">
+    <value>El asunto de facturación que se usará para asociar un destino y asunto por defecto cuando la entrada sea de una factura. El asunto de facturación debe un asunto asociado a un destino.</value>
+  </data>
+  <data name="TooltipAutoEnvioCorreoPresencial" xml:space="preserve">
+    <value>Si marca esta casilla, cuando se haga un registro presencial y el remitente tenga un correo asociado, se enviará un correo automáticamente al remitente con el justificante del registro. Esta acción se puede hacer siempre manualmente tras registrar un asiento.</value>
+  </data>
+  <data name="ToolTipBotonPonerFirmado" xml:space="preserve">
+    <value>Pone como firmada una instancia presentada por la sede que no se pueda firmar mediante certificado ni biométricamente (porque sea una persona física sin NIF ni NIE).
+
+En este caso hay que imprimir la instancia presentada, firmarla de forma manuscrita y escanearla como solicitud con validez jurídica.</value>
+  </data>
+  <data name="ToolTipCampoBusqueda" xml:space="preserve">
+    <value>Puede utilizar el comodín «?» para indicar cualquier carácter o el comodín «*» para indicar cualquier texto. Por ejemplo: «mari?» encontraría los resultados «María» y «Mario»</value>
+  </data>
+  <data name="TooltipConvertirANuevoRegistro" xml:space="preserve">
+    <value>Este registro es anterior a la nueva versión de SERES. Si desea editarlo deberá convertirlo a un registro nuevo. Ese proceso implica que perderá el antiguo destinatario definido como departamento y se buscará su equivalente en la nueva estructura administrativa.</value>
+  </data>
+  <data name="ToolTipCorreoElectronicoAsientosAsignados" xml:space="preserve">
+    <value>Si está relleno y activada la casilla, se envía un único listado con todos los asientos de la entidad</value>
+  </data>
+  <data name="ToolTipDatosRemitente" xml:space="preserve">
+    <value>Valores del ciudadano cuando se creó o registró la entrada por última vez</value>
+  </data>
+  <data name="ToolTipDatosRepresentante" xml:space="preserve">
+    <value>Valores del representante cuando se creó o registro la entrada por Última vez</value>
+  </data>
+  <data name="ToolTipDestinoDepartamento" xml:space="preserve">
+    <value>Se mantiene por retrocompatibilidad. Se permite su uso cuando la entidad de destino no tenga servicios asociados.</value>
+  </data>
+  <data name="ToolTipDestinoServicio" xml:space="preserve">
+    <value>Recomendado. Permite varios destinatarios.</value>
+  </data>
+  <data name="ToolTipEnlaceToken" xml:space="preserve">
+    <value>Mostrará un enlace que permite visualizar el registro actual a CUALQUIER persona</value>
+  </data>
+  <data name="ToolTipEnviar" xml:space="preserve">
+    <value>Guardará el registro, lo registrará y mostrará el diálogo de envío</value>
+  </data>
+  <data name="TooltipEnviarJustificantePorEmail" xml:space="preserve">
+    <value>Se enviará el justificante más reciente por correo electrónico a los remitentes de este asiento</value>
+  </data>
+  <data name="ToolTipIdRegistro" xml:space="preserve">
+    <value>Identificador unívoco de este registro en la plataforma SERES</value>
+  </data>
+  <data name="ToolTipNumeroRcf" xml:space="preserve">
+    <value>Se ha creado la factura nº {0} en SEFACE</value>
+  </data>
+  <data name="ToolTipPuedeQueTardeMax20" xml:space="preserve">
+    <value>Puede que este dato tarde como máximo 20 minutos en actualizarse</value>
+  </data>
+  <data name="ToolTipRegistrar" xml:space="preserve">
+    <value>Guardará el registro y pasará a registrarlo directamente</value>
+  </data>
+  <data name="ToolTipTipoVistaExportacion" xml:space="preserve">
+    <value>Le permite indicar si quiere que en los registros exista un enlace que permita acceder a CUALQUIER persona a los datos básicos de un registro.</value>
+  </data>
+  <data name="UnidadDestinoEfectivaDir3" xml:space="preserve">
+    <value>Dir3 unidad destino efectiva</value>
+  </data>
+  <data name="UnidadOrganica" xml:space="preserve">
+    <value>Unidad orgánica</value>
+  </data>
+  <data name="UtiliceElBuscadorDeOficinas" xml:space="preserve">
+    <value>Utilice el buscador de oficinas</value>
+  </data>
+  <data name="VisorXsig" xml:space="preserve">
+    <value>Visor XSIG</value>
+  </data>
+  <data name="VisualizarContenedores" xml:space="preserve">
+    <value>Visualizar destinos</value>
+  </data>
+  <data name="VisualizarContenedoresArbol" xml:space="preserve">
+    <value>Visualizar árbol</value>
+  </data>
+  <data name="VisualizarContenedoresGrafo" xml:space="preserve">
+    <value>Visualizar grafo</value>
+  </data>
+  <data name="VisualizarRegistro" xml:space="preserve">
+    <value>Visualizar registro</value>
+  </data>
+  <data name="Pdf" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PdfExplicacion" xml:space="preserve">
+    <value>Exportar un pdf con información de los registros filtrados actualmente.</value>
+  </data>
+  <data name="ReportRegistroEntradaPDF_Titulo" xml:space="preserve">
+    <value>Registro de entrada</value>
+  </data>
+  <data name="ReportRegistroSalidaPDF_Titulo" xml:space="preserve">
+    <value>Registro de salida</value>
+  </data>
+  <data name="ReportRegistro_GenerarEnlace" xml:space="preserve">
+    <value>Incluir enlaces públicos a documentos</value>
+  </data>
+  <data name="ReportRegistro_GenerarEnlaceInfo" xml:space="preserve">
+    <value>Por seguridad, solo es posible generar los enlaces públicos si el nº de registros a exportar es menor que 100</value>
+  </data>
+  <data name="ExistenRegistrosPendientesDeDespachar" xml:space="preserve">
+    <value>Existen registros pendientes de despachar</value>
+  </data>
+  <data name="SinNumeroDeRegistro" xml:space="preserve">
+    <value>Sin número de registro</value>
+  </data>
+  <data name="IndiqueLaDireccionDeDestino" xml:space="preserve">
+    <value>Indique la dirección de destino para enviar el justificante</value>
+  </data>
+  <data name="Listado" xml:space="preserve">
+    <value>Listado</value>
+  </data>
+  <data name="ListadoGeneralDeAsientosPorDepartamento" xml:space="preserve">
+    <value>Listado general de asientos por destino</value>
+  </data>
+  <data name="Listados" xml:space="preserve">
+    <value>Listados</value>
+  </data>
+  <data name="PulseElBotonMasParaAnadirElDestino" xml:space="preserve">
+    <value>Pulse el botón + para añadir el destino</value>
+  </data>
+  <data name="ListadoUnicoDocumento" xml:space="preserve">
+    <value>Único documento</value>
+  </data>
+  <data name="DebeIndicarAlgunDestino" xml:space="preserve">
+    <value>Debe indicar algún destino</value>
+  </data>
+  <data name="AutoEnvioCorreoDiarioDestinos" xml:space="preserve">
+    <value>Envío automático diario de correos a los destinos</value>
+  </data>
+  <data name="AutoEnvioCorreoDiarioEntradasEntidad" xml:space="preserve">
+    <value>Envío automático diaro de correos al correo indicado</value>
+  </data>
+  <data name="ToolTipAutoEnvioCorreoDiarioDestinos" xml:space="preserve">
+    <value>Se enviará cada día el listado de los registros a los destinos de los asientos</value>
+  </data>
+  <data name="ToolTipAutoEnvioCorreoDiarioEntradasEntidad" xml:space="preserve">
+    <value>Se enviará cada día el listado de los registros de entrada al correo que se indique</value>
+  </data>
+  <data name="GuardarYGenerar" xml:space="preserve">
+    <value>Guardar y generar</value>
+  </data>
+  <data name="ToolTipSeGenerara" xml:space="preserve">
+    <value>Se generará aunque esté desactivada la opción</value>
+  </data>
+  <data name="TooltipListadoCorreo" xml:space="preserve">
+    <value>Listados de registros de destinos contenidos y contenedores del destino seleccionado. Se enviará únicamente al correo indicado para el destino indicado.</value>
+  </data>
+  <data name="TooltipListadoDestino" xml:space="preserve">
+    <value>Listados de registros de destinos contenidos y contenedores del destino seleccionado.</value>
+  </data>
+  <data name="TooltipListadoDestinoUnico" xml:space="preserve">
+    <value>Listado unificado de registros de destinos contenidos y contenedores del destino seleccionado.</value>
+  </data>
+  <data name="AdminListadoDiarioDestinos" xml:space="preserve">
+    <value>Activa un envío diario a las 8:30 a los correos que tengan los avisos SERES activados y sean contenidos por el destino. Los listados contienen sólo los registros asignados a ese destino y hayan sido completados  desde el día hábil anterior hasta ayer.</value>
+  </data>
+  <data name="AdminListadoDiarioEntidad" xml:space="preserve">
+    <value>Activa un envío diario a las 8:30 al correo indicado en la casilla. El listado contendrá los registros para toda la entidad completados desde el día hábil anterior hasta ayer</value>
+  </data>
+  <data name="TituloPersonalizado" xml:space="preserve">
+    <value>Título personalizado</value>
+  </data>
+  <data name="TipoEnlace" xml:space="preserve">
+    <value>Tipo enlace</value>
+  </data>
+  <data name="TipoEnlaceVista" xml:space="preserve">
+    <value>Tipo de enlace al registro</value>
+  </data>
+  <data name="ElEnlacePublico" xml:space="preserve">
+    <value>El enlace PÚBLICO al registro visualiza TODOS los datos del mismo (datos de carácter personal). Si no está marcado, el enlace no muestra datos LOPD</value>
+  </data>
+  <data name="ToolTipTiposDeEnlace" xml:space="preserve">
+    <value>SinEnlace - No se genera el documento con enlaces
+Sencilla - Se genera un enlace público que no muestra datos LOPD
+ConDocumentos - Se genera enlace PÚBLICO al registro visualiza TODOS los datos del mismo (datos de carácter personal).</value>
+  </data>
+  <data name="PeticionJuzgado" xml:space="preserve">
+    <value>Petición juzgado</value>
+  </data>
+  <data name="CodigoOrden" xml:space="preserve">
+    <value>Código orden</value>
+  </data>
+  <data name="ExpPedidoAno" xml:space="preserve">
+    <value>Año exp. pedido</value>
+  </data>
+  <data name="ExpPedidoFechaInicio" xml:space="preserve">
+    <value>Fecha inicio exp. pedido</value>
+  </data>
+  <data name="ExpPedidoId" xml:space="preserve">
+    <value>Identificador exp. pedido</value>
+  </data>
+  <data name="ExpPedidoIdInteresado" xml:space="preserve">
+    <value>Identificador interesado exp. pedido</value>
+  </data>
+  <data name="IdPeticion" xml:space="preserve">
+    <value>Identificador de petición</value>
+  </data>
+  <data name="Motivacion" xml:space="preserve">
+    <value>Motivación</value>
+  </data>
+  <data name="Poblacion" xml:space="preserve">
+    <value>Población</value>
+  </data>
+  <data name="ProcedimientoAno" xml:space="preserve">
+    <value>Año procedimiento</value>
+  </data>
+  <data name="ProcedimientoClase" xml:space="preserve">
+    <value>Clase procedimiento</value>
+  </data>
+  <data name="ProcedimientoNumero" xml:space="preserve">
+    <value>Núm. procedimiento</value>
+  </data>
+  <data name="TipoOrgano" xml:space="preserve">
+    <value>Tipo órgano</value>
+  </data>
+  <data name="UsuarioPeticionario" xml:space="preserve">
+    <value>Usuario peticionario</value>
+  </data>
+  <data name="RemitenteNombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="LaFechaDeGrabacionNoPuedeSerMenorQueLaFechaDeLaFactura" xml:space="preserve">
+    <value>La fecha de la factura no puede ser posterior a la fecha de grabación</value>
+  </data>
+  <data name="ToolTipEjercicioAnoAnterior" xml:space="preserve">
+    <value>Durante los primeros días de Enero se permite registrar para el ejercicio anterior esto es útil para registros de documentos que hayan venido por correo postal o facturación.</value>
+  </data>
+  <data name="XsigNoValido" xml:space="preserve">
+    <value>El anexo no es un XSIG válido</value>
+  </data>
+  <data name="SeHaDetectadoAlgunCaracterErroneo" xml:space="preserve">
+    <value>Se ha detectado algún caracter inválido o ilegible, probablemente por haber sido texto copiado de algún PDF. Pulse este botón si desea corregirlo.</value>
+  </data>
+  <data name="CrearLoteRegistro" xml:space="preserve">
+    <value>Crear lote de registros</value>
+  </data>
+  <data name="CrearLoteRegistroExplicacion" xml:space="preserve">
+    <value>Esta funcionalidad le permite crear hasta 50 registros de entrada con un mismo asunto y número de registro propio pero sin ningún dato más para ser rellenados posteriormente.</value>
+  </data>
+  <data name="CreadoEnLote" xml:space="preserve">
+    <value>Creado en lote</value>
+  </data>
+  <data name="SeHanCreado0EntradasDesde1Hasta2" xml:space="preserve">
+    <value>Se han creado {0} entradas desde {1} hasta {2}</value>
+  </data>
+  <data name="RegistroAnterior" xml:space="preserve">
+    <value>Registro anterior</value>
+  </data>
+  <data name="SiguienteRegistro" xml:space="preserve">
+    <value>Siguiente registro</value>
+  </data>
+  <data name="PlaceHolderResumenCrearLote" xml:space="preserve">
+    <value>Puede usar #num# para indicar un número para este lote en el resumen o #total# para indicar el número total</value>
+  </data>
+  <data name="NoSePuedenExportarMasDe0RegistrosEntreLas1YLas2" xml:space="preserve">
+    <value>Se limitará el número de registros en la exportación. No se pueden exportar más de {0} registros entre las {1} y las {2} horas</value>
+  </data>
+  <data name="IncompletoAnterior" xml:space="preserve">
+    <value>Registro incompleto anterior</value>
+  </data>
+  <data name="SiguienteIncompleto" xml:space="preserve">
+    <value>Registro incompleto siguiente</value>
+  </data>
+  <data name="EntidadesEnLaQueEsAdministrador" xml:space="preserve">
+    <value>Entidades en la que es administrador o responsable de registro. Selecciones aquellas de las que quiera generar el libro.</value>
+  </data>
+  <data name="GenerarLibroOficial" xml:space="preserve">
+    <value>Generar libro oficial de registro</value>
+  </data>
+  <data name="LibroOficial" xml:space="preserve">
+    <value>Libro oficial</value>
+  </data>
+  <data name="SeHaGeneradoLaTareaLibroOficial" xml:space="preserve">
+    <value>Se ha creado la tarea para generar el libro oficial de registros para el ejercicio y entidades que ha solicitado. Si ha indicado un correo recibirá un aviso cuando ésta termine. En cualquier caso siempre podrá ver el estado de la tarea en nuestro gestor de tareas programadas. Es posible que la tarea no comience hasta un periodo de poco uso de los servidores a partir de las 15h de la tarde, por lo que le rogamos que sea paciente.</value>
+  </data>
+  <data name="GestorDeTareas" xml:space="preserve">
+    <value>Gestor de tareas programadas</value>
+  </data>
+  <data name="AnexosPendientesTelematica" xml:space="preserve">
+    <value>Los anexos de este registro se incorporarán automáticamente en unos minutos. Si no es así, contacte con soporte.</value>
+  </data>
+  <data name="PdteFirmaNoSePuedeEnviar" xml:space="preserve">
+    <value>Envío deshabilitado: Al estar pendiente de firma, la instancia  es susceptible de firma (mediante certificado y/o biométricamente, según el trámite) pero exclusivamente en la sede en la que se presentó.
+
+Si se envía no tiene sentido que se firme posteriormente, por lo que debe archivar el asiento antes de enviarlo para impedir esta firma posterior</value>
+  </data>
+  <data name="DiminutivoNumero" xml:space="preserve">
+    <value>n.º</value>
+  </data>
+  <data name="MarcarComoCopia" xml:space="preserve">
+    <value>Marcar como copia auténtica</value>
+  </data>
+  <data name="TooltipMarcarComoCopia" xml:space="preserve">
+    <value>Los nuevos anexos se añadirán indicando el tipo de validez como «Copia con la misma validadez jurídica que la original» y estado de elaboración ENI como «Copia electrónica auténtica de documento papel»</value>
+  </data>
+  <data name="EstadisticasDestinos" xml:space="preserve">
+    <value>Estadísticas destinos</value>
+  </data>
+  <data name="SeriaFaltaNombreApellido" xml:space="preserve">
+    <value>Al ciudadano le falta el nombre o el apellido. Compruebe en el apartado Ciudadanos que el ciudadano dispone de nombre y apellidos</value>
+  </data>
+  <data name="AnyoPieza" xml:space="preserve">
+    <value>Año pieza</value>
+    <comment>Justicia</comment>
+  </data>
+  <data name="CodigoPieza" xml:space="preserve">
+    <value>Código pieza</value>
+    <comment>Justicia</comment>
+  </data>
+  <data name="Jurisdiccion" xml:space="preserve">
+    <value>Jurisdicción</value>
+    <comment>Justicia</comment>
+  </data>
+  <data name="NumeroAcontecimiento" xml:space="preserve">
+    <value>Número acontecimiento</value>
+    <comment>Justicia</comment>
+  </data>
+  <data name="NumeroPieza" xml:space="preserve">
+    <value>Número pieza</value>
+    <comment>Justicia</comment>
+  </data>
+  <data name="Pieza" xml:space="preserve">
+    <value>Pieza</value>
+    <comment>Justicia</comment>
+  </data>
+  <data name="SubindicePieza" xml:space="preserve">
+    <value>Subíndice pieza</value>
+    <comment>Justicia</comment>
+  </data>
+  <data name="OposicionInteroperabilidad" xml:space="preserve">
+    <value>Oposición interoperabilidad</value>
+  </data>
+  <data name="OposicionInteroperabilidadDiminutivo" xml:space="preserve">
+    <value>Op. Int.</value>
+  </data>
+  <data name="TextoLegalComparecenciaElectronica" xml:space="preserve">
+    <value>El interesado que lo indica acepta ser notificado de forma electrónica, como mecanismo de notificación predeterminado, utilizando para ello la dirección de correo electrónico, DEH y teléfono móvil indicados.</value>
+  </data>
+  <data name="TextoLegalLopdJustificante" xml:space="preserve">
+    <value>Según lo establecido en la vigente normativa de protección de datos, se le informa que los datos facilitados a través del presente formulario serán tratados por esta Entidad, que actúa como responsable del tratamiento, con la finalidad de tramitar su solicitud y/o procedimiento. La licitud del tratamiento está basada en el consentimiento del interesado en el cumplimiento de una obligación legal, en el de una misión de interés público y/o en el ejercicio de poderes públicos conferidos, de acuerdo con el artículo 6 del RGPD.
+No están previstas comunicaciones a terceros, salvo obligación legal, ni transferencias a terceros países u organizaciones internacionales. Los datos se conservarán durante el tiempo necesario para cumplir con la finalidad para la que se recabaron y para determinar las posibles responsabilidades que se pudieran derivar.
+Podrá ejercitar los derechos de acceso, rectificación, supresión, así como otros, cuando procedan, ante esta Entidad, indicando en el asunto: Ref. Protección de Datos, o a través de la Sede Electrónica. Si en el ejercicio de sus derechos no ha sido debidamente atendido, podrá presentar una reclamación ante la Agencia Española de Protección de Datos, C/ Jorge Juan, 6 28001 Madrid o a través de su sede electrónica. No obstante, en primera instancia, podrá presentar reclamación ante el Delegado de Protección de Datos:</value>
+  </data>
+  <data name="TextoLegalOposicionInteroperabilidad" xml:space="preserve">
+    <value>El solicitante que lo indica, manifiesta expresamente su oposición a que la administración actuante pueda consultar o recabar datos y documentos de cualquier Administración, en cuyo caso deberá aportar con la solicitud la documentación acreditativa correspondiente (art. 28.2 Ley 39/2015. Redactado por la disposición final 12 de la Ley Orgánica 3/2018, de 5 de diciembre.)</value>
+  </data>
+  <data name="activadas" xml:space="preserve">
+    <value>activadas</value>
+  </data>
+  <data name="desactivadas" xml:space="preserve">
+    <value>desactivadas</value>
+  </data>
+  <data name="NotificacionesElectronicasDeOficio" xml:space="preserve">
+    <value>Notificaciones electrónicas de oficio</value>
+  </data>
+  <data name="OtrosCanalesDeContacto" xml:space="preserve">
+    <value>Otros canales de contacto</value>
+  </data>
+  <data name="TamanoBytes" xml:space="preserve">
+    <value>Tamaño (bytes)</value>
+  </data>
+  <data name="FiltroHistorial" xml:space="preserve">
+    <value>Filtro historial</value>
+  </data>
+  <data name="ToolTipFiltroHistorial" xml:space="preserve">
+    <value>Realiza la búsqueda de texto en el historial del registro</value>
+  </data>
+  <data name="Justificante" xml:space="preserve">
+    <value>Justificante</value>
+  </data>
+  <data name="NingunAnexo" xml:space="preserve">
+    <value>Ningún anexo</value>
+  </data>
+  <data name="Replicar" xml:space="preserve">
+    <value>Replicar</value>
+  </data>
+  <data name="ReplicarRegistro" xml:space="preserve">
+    <value>Replicar registro</value>
+  </data>
+  <data name="SoloJustificante" xml:space="preserve">
+    <value>Sólo justificante</value>
+  </data>
+  <data name="TodosLosAnexos" xml:space="preserve">
+    <value>Todos los anexos</value>
+  </data>
+  <data name="Copia" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+  <data name="CopiaOriginal" xml:space="preserve">
+    <value>Copia original</value>
+  </data>
+  <data name="Original" xml:space="preserve">
+    <value>Original</value>
+  </data>
+  <data name="CopiaCompulsada" xml:space="preserve">
+    <value>Copia compulsada</value>
+  </data>
+  <data name="AnexosSinJustificante" xml:space="preserve">
+    <value>Anexos sin justificante</value>
+  </data>
+  <data name="ReplicarComoSalida" xml:space="preserve">
+    <value>Replicar como salida</value>
+  </data>
+  <data name="ActualizacionDir3" xml:space="preserve">
+    <value>Actualización de los Dir3</value>
+  </data>
+  <data name="TextoExplicativoActualizacionDir3" xml:space="preserve">
+    <value>En el caso de que no encuentre un Dir3 de destino que pueda haber sido añadido muy recientemiente puede invocar una actualización de los Dir3.</value>
+  </data>
+  <data name="UnidadOrganicaMasReciente" xml:space="preserve">
+    <value>Unidad orgánica más reciente</value>
+  </data>
+  <data name="PendienteDeEnvio" xml:space="preserve">
+    <value>Pendiente de envío</value>
+  </data>
+  <data name="RemitenteYRepresentanteNoPuedenSerElMismo" xml:space="preserve">
+    <value>Remitente y representante no pueden ser la misma persona</value>
+  </data>
+  <data name="NombreApellidosNoCompletos" xml:space="preserve">
+    <value>Es necesario que todos los remitentes que sean personas físicas tengan indicados los componentes del nombre por separado. Por favor, edite el remitente y rellene los campos.</value>
+  </data>
+  <data name="LimpiarCacheEntidad" xml:space="preserve">
+    <value>Limpiar caché de entidad</value>
+  </data>
+  <data name="ToolTipLimpiarCacheEntidad" xml:space="preserve">
+    <value>Cuando una entidad pasa de estar desactivada a estar activa este estado no se actualiza hasta que la caché se limpiar. Esta opción permite forzar la caché de la entidad.</value>
+  </data>
+  <data name="FiltroSegex" xml:space="preserve">
+    <value>Filtro por expediente</value>
+  </data>
+  <data name="ToolTipFiltroSegex" xml:space="preserve">
+    <value>Indicando el código del expediente este filtro buscará las entradas que estén asociadas a dicho expediente.</value>
+  </data>
+  <data name="AnadirAnexoCsv" xml:space="preserve">
+    <value>Añadir anexo mediante CSV</value>
+  </data>
+  <data name="TooltipBusquedaExpedientes" xml:space="preserve">
+    <value>Puede utilizar el comodín «?» para indicar cualquier carácter o el comodín «*» para indicar cualquier texto. Puede usar el comodín «*» de manera aislada para filtrar todos los asientos asociados a un expediente. También puede usar de manera aislada el comodín de la exclamación «!» para filtrar todos aquellos que no tienen un expediente asociado.</value>
+  </data>
+  <data name="PlaceHolderBusquedaExpedientes" xml:space="preserve">
+    <value>Use «?» para cualquier carácter o «*» para cualquier texto. Use «!» para registros sin expediente asociado.</value>
+  </data>
+  <data name="TooltipBotonConExpedienteAsociado" xml:space="preserve">
+    <value>Todos los registros con expediente asociado</value>
+  </data>
+  <data name="TooltipBotonSinExpedienteAsociado" xml:space="preserve">
+    <value>Registros sin expediente asociado</value>
+  </data>
+  <data name="TramiteAsistido" xml:space="preserve">
+    <value>Trámite asistido</value>
+  </data>
+  <data name="FiltroNodoPerteneceCreador" xml:space="preserve">
+    <value>Filtro por nodo al que pertenece el usuario que crea el asiento</value>
+  </data>
+  <data name="ProcedenciaGeografica" xml:space="preserve">
+    <value>Procedencia geográfica</value>
+  </data>
+  <data name="FiltroCreadorAsistencia" xml:space="preserve">
+    <value>Filtro de trámites de asistencia ciudadana creados por el tramitador</value>
+  </data>
+  <data name="DescribaElDocumento" xml:space="preserve">
+    <value>Describa el documento</value>
+  </data>
+  <data name="DescribaElDocumentoEscaneado" xml:space="preserve">
+    <value>Describa el documento escaneado</value>
+  </data>
+  <data name="EstadisticasTramitadores" xml:space="preserve">
+    <value>Estadísticas tramitadores</value>
+  </data>
+  <data name="Tramitador" xml:space="preserve">
+    <value>Tramitador</value>
+  </data>
+  <data name="AvisoFotoRemitenteCambia" xml:space="preserve">
+    <value>Recuerde generar un nuevo justificante, sobre todo cuando se varíen los datos del interesado o de su preferencia de comunicación</value>
+  </data>
+  <data name="AvisoPendienteGuardar" xml:space="preserve">
+    <value>Puede que el registro esté pendiente de guardar</value>
+  </data>
+  <data name="AvisoFotoRemitenteCambiaTelematico" xml:space="preserve">
+    <value>Si se modifican los datos de preferencia de comunicación, se seguirán utilizando los indicados en la solicitud inicial</value>
+  </data>
+  <data name="PuedeHaberAlguienEditando" xml:space="preserve">
+    <value>Hay usuarios que han accedido a este asiento hace pocos minutos y pueden modificarlo en breve</value>
+  </data>
+  <data name="AvisoEstadisticasAccesos" xml:space="preserve">
+    <value>Las estadísticas muestran los accesos de edición a los asientos. Los accesos en modo sólo lectura o con enlace externo se hace mediante «token» y no se conoce la persona que accedió. La generación de los «token» sí queda registrada y se puede visualizar en las estadísticas de los tramitadores.</value>
+  </data>
+  <data name="EstadisticasAccesos" xml:space="preserve">
+    <value>Estadísticas accesos</value>
+  </data>
+  <data name="EliminarBorrador" xml:space="preserve">
+    <value>Eliminar borrador</value>
+  </data>
+  <data name="NoSePuedeEliminar" xml:space="preserve">
+    <value>No se puede eliminar</value>
+  </data>
+  <data name="NoSePuedeEliminarUnAsientoYaRegistrado" xml:space="preserve">
+    <value>No se puede eliminar un asiento ya registrado</value>
+  </data>
+  <data name="ElCodigoPerteneceAOtraEntidad" xml:space="preserve">
+    <value>El código pertenece a otra entidad</value>
+  </data>
+  <data name="IdiomaPreferenteEnDesplegables" xml:space="preserve">
+    <value>Idioma preferente en desplegables</value>
+  </data>
+  <data name="TrámiteAsistido" xml:space="preserve">
+    <value>Trámite asistido</value>
+  </data>
+  <data name="DebeIndicarAlgunDestinoQueAdmitaFacturas" xml:space="preserve">
+    <value>Debe indicar algún destino que admita facturas.</value>
+  </data>
+  <data name="ExisteAlgunAnexoPendienteDescarga" xml:space="preserve">
+    <value>Existe algún anexo pendiente de descarga</value>
+  </data>
+  <data name="DatosJustificanteVarian" xml:space="preserve">
+    <value>Debe generarse un justificante que refleje los últimos cambios para que se pueda permitir el envío</value>
+  </data>
+  <data name="DatosModificadosTrasGenerarJustificante" xml:space="preserve">
+    <value>Aviso: Se han modificado datos después de generar el justificante</value>
+  </data>
+  <data name="RecursosIdioma" xml:space="preserve">
+    <value>Recursos de idioma</value>
+  </data>
+  <data name="FechaModificacionDatosJustificante" xml:space="preserve">
+    <value>Fecha de última modificación de los datos del justificante</value>
+  </data>
+  <data name="AvisoSinJustificante" xml:space="preserve">
+    <value>Aviso: no hay ningún justificante como documento anexo</value>
+  </data>
+  <data name="DestinosExistentesDosPuntos" xml:space="preserve">
+    <value>Destinos existentes:</value>
+  </data>
+  <data name="SinDestinos" xml:space="preserve">
+    <value>Sin destinos</value>
+  </data>
+  <data name="SinNingunDestino" xml:space="preserve">
+    <value>Sin ningún destino</value>
+  </data>
+  <data name="LosAsuntoFacturaDebenTenerUnDestinoQueAdmitaFacturas" xml:space="preserve">
+    <value>Los asuntos «FACTURA» deben tener un destino que admita facturas</value>
+  </data>
+  <data name="UrlNotificacionRegistro" xml:space="preserve">
+    <value>URL Notificación Registro</value>
+  </data>
+  <data name="UrlNotificacionRegistroDescripcion" xml:space="preserve">
+    <value>Establece la URL donde SERES realizará una llamada HTTP-GET cuando el asiento se haya registrado o se genere un nuevo justificante de registro.
+
+Esto permite activar un mecanismo de pushing para notificar a una aplicación cliente, con el fin de que esta no deba estar consultando continuamente el estado (polling).
+
+A la URL se le añadirán los parámetros «idRegistro» y «codigoEntidad» en los parámetros de la URL. Por ejemplo, si se configura www.google.es la llamada se hará a: www.google.es?codigoEntidad={0}&amp;idRegistro=12345678
+
+Los resultados de la llamada se guardarán en el historial del asiento de registro.
+
+Actualmente, al estar funcionando de modo experimental, la llamada se realizará cuando se realice una instancia presencial o desde el servicio web. Una vez pasada la primera fase experimental también se realizará la llamada cuando se realice una instancia telemática en la sede electrónica.</value>
+  </data>
+  <data name="FiltroTipoFirma" xml:space="preserve">
+    <value>Filtro tipo de firma</value>
+  </data>
+  <data name="AlgunDestino" xml:space="preserve">
+    <value>Algún destino</value>
+    <comment>Leído por «Algún destino»</comment>
+  </data>
+  <data name="LeidoPor" xml:space="preserve">
+    <value>Leído por</value>
+  </data>
+  <data name="PendienteLectura" xml:space="preserve">
+    <value>Pendiente de lectura por algún destino</value>
+    <comment>Leído por «Pendiente de lectura por algún destino»</comment>
+  </data>
+  <data name="NingunDestino" xml:space="preserve">
+    <value>Ningún destino</value>
+  </data>
+  <data name="TodosLosDestinos" xml:space="preserve">
+    <value>Todos los destinos</value>
+  </data>
+  <data name="SinLeer" xml:space="preserve">
+    <value>Sin leer</value>
+  </data>
+  <data name="ElAsientoFueModificadoMientrasSeEstabaEditando" xml:space="preserve">
+    <value>No se puede guardar el registro: el asiento fue modificado por otro usuario mientras se estaba editando</value>
+  </data>
+  <data name="FechaUltimaModificacionSeres" xml:space="preserve">
+    <value>Fecha última modificación SERES</value>
+  </data>
+  <data name="ParaEvitarPerdidaDeInformacion" xml:space="preserve">
+    <value>Para evitar pérdida de información, guarde aparte los datos que haya cambiado (sobre todo si son anexos), vuelva a abrir el asiento para refrescar los datos e incorpore la información que pueda faltar.</value>
+  </data>
+  <data name="FirmaManual" xml:space="preserve">
+    <value>Firma manual</value>
+  </data>
+  <data name="TipoFirma" xml:space="preserve">
+    <value>Tipo firma</value>
+  </data>
+  <data name="FiltroPagoAsociado" xml:space="preserve">
+    <value>Filtro por pago asociado</value>
+  </data>
+  <data name="Pago" xml:space="preserve">
+    <value>Pago</value>
+    <comment>Payment</comment>
+  </data>
+  <data name="FiltroAnexos" xml:space="preserve">
+    <value>Filtro anexos</value>
+  </data>
+  <data name="IaGenerarResumen" xml:space="preserve">
+    <value>Generar un resumen con el contenido del registro</value>
+  </data>
+  <data name="SeleccionarMedianteIaDescripcion" xml:space="preserve">
+    <value>Se leerá el contenido del asiento y se añadirá un posible candidato mediante inteligencia artificial. Si el candidato ya está seleccionado no se duplicará.</value>
+  </data>
+  <data name="AsignacionRapida" xml:space="preserve">
+    <value>Asignación rápida</value>
+  </data>
+  <data name="NoSePudoSellarElAnexo" xml:space="preserve">
+    <value>No se pudo sellar el anexo debido al formato</value>
+  </data>
+  <data name="SintesisContenido" xml:space="preserve">
+    <value>Síntesis del contenido</value>
+  </data>
+  <data name="Anonimizado" xml:space="preserve">
+    <value>ANONIMIZADO</value>
+  </data>
+  <data name="AceptacionCondiciones" xml:space="preserve">
+    <value>Aceptación de condiciones:</value>
+    <comment>Se usa para establecer el comienzo del pie legal de los justificantes de la sede electrónica</comment>
+  </data>
+  <data name="ContenidoInstanciaElectronica" xml:space="preserve">
+    <value>Contenido instancia electrónica</value>
+  </data>
+  <data name="AlgunRemiteNoTieneNif" xml:space="preserve">
+    <value>Algún remitente no tiene NIF</value>
+  </data>
+  <data name="EstasEstadisticasSoloPresenciales" xml:space="preserve">
+    <value>Estas estadísticas sólo comprenden cambios en registros presenciales y asistidos.</value>
+  </data>
+  <data name="NoDebeTenerExpedientesAsociados" xml:space="preserve">
+    <value>No debe tener expedientes u otros elementos asociados de asientos con número de registro</value>
+  </data>
+  <data name="Historial" xml:space="preserve">
+    <value>Historial</value>
+  </data>
+  <data name="Fecha" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+</root>
