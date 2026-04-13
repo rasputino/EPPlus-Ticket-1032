@@ -1,0 +1,58 @@
+﻿name: Generate Excel Files
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  generate-excels:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+      with:
+        msbuild-version: latest
+
+    - name: Restore NuGet packages
+      run: nuget restore EPPlus-Ticket-1032.sln
+
+    - name: Build V5
+      run: msbuild "EPPlus-Ticket-1032-V5/EPPlus-Ticket-1032-V5.vbproj" /p:Configuration=Release
+
+    - name: Build V8
+      run: msbuild "EPPlus-Ticket-1032-V8/EPPlus-Ticket-1032-V8.vbproj" /p:Configuration=Release
+
+    - name: Run V5 Generation
+      run: .\EPPlus-Ticket-1032-V5\bin\Release\EPPlus-Ticket-1032-V5.exe
+
+    - name: Run V8 Generation
+      run: .\EPPlus-Ticket-1032-V8\bin\Release\EPPlus-Ticket-1032-V8.exe
+
+    - name: Move Excel Files
+      run: |
+        if not exist "output" mkdir output
+        move "%USERPROFILE%\Desktop\Test V5*.xlsx" output\ 2>nul || echo No V5 files found
+        move "%USERPROFILE%\Desktop\Test V7*.xlsx" output\ 2>nul || echo No V7 files found
+      shell: cmd
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: Excel Files
+        path: output/
+
+    - name: Commit and Push (if files changed)
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add output/
+        git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Auto-generated Excel files" && git push)
+      continue-on-error: true
