@@ -22,24 +22,24 @@ jobs:
         msbuild-version: latest
 
     - name: Restore NuGet packages
-      run: nuget restore EPPlus-Ticket-1032.sln
+      run: nuget restore EPPlus-Ticket-1032/EPPlus-Ticket-1032.sln
 
     - name: Build V5
-      run: msbuild "EPPlus-Ticket-1032-V5/EPPlus-Ticket-1032-V5.vbproj" /p:Configuration=Release
+      run: msbuild "EPPlus-Ticket-1032/EPPlus-Ticket-1032-V5/EPPlus-Ticket-1032-V5.vbproj" /p:Configuration=Release
 
     - name: Build V8
-      run: msbuild "EPPlus-Ticket-1032-V8/EPPlus-Ticket-1032-V8.vbproj" /p:Configuration=Release
+      run: msbuild "EPPlus-Ticket-1032/EPPlus-Ticket-1032-V8/EPPlus-Ticket-1032-V8.vbproj" /p:Configuration=Release
 
     - name: Create output directory
       run: mkdir output -Force
       shell: pwsh
 
     - name: Run V5 Generation
-      run: .\EPPlus-Ticket-1032-V5\bin\Release\EPPlus-Ticket-1032-V5.exe
+      run: .\EPPlus-Ticket-1032\EPPlus-Ticket-1032-V5\bin\Release\EPPlus-Ticket-1032-V5.exe
       continue-on-error: true
 
     - name: Run V8 Generation
-      run: .\EPPlus-Ticket-1032-V8\bin\Release\EPPlus-Ticket-1032-V8.exe
+      run: .\EPPlus-Ticket-1032\EPPlus-Ticket-1032-V8\bin\Release\EPPlus-Ticket-1032-V8.exe
       continue-on-error: true
 
     - name: Move Excel Files
