@@ -7,6 +7,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   generate-excels:
     runs-on: windows-latest
@@ -15,6 +19,7 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
@@ -71,7 +76,7 @@ jobs:
           Write-Host "No changes to commit"
         } else {
           git commit -m "📊 Auto-generated Excel files [skip ci]"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git push origin main
         }
       shell: pwsh
       continue-on-error: true
