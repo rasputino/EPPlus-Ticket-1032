@@ -62,10 +62,16 @@ jobs:
         retention-days: 30
 
     - name: Commit and Push (if files changed)
+      if: always()
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add output/ -f
-        git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Auto-generated Excel files" && git push)
+        if (git diff --quiet --cached) {
+          Write-Host "No changes to commit"
+        } else {
+          git commit -m "📊 Auto-generated Excel files [skip ci]"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+        }
       shell: pwsh
       continue-on-error: true
