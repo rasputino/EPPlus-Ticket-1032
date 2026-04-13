@@ -12,7 +12,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
@@ -30,29 +30,42 @@ jobs:
     - name: Build V8
       run: msbuild "EPPlus-Ticket-1032-V8/EPPlus-Ticket-1032-V8.vbproj" /p:Configuration=Release
 
+    - name: Create output directory
+      run: mkdir output -Force
+      shell: pwsh
+
     - name: Run V5 Generation
       run: .\EPPlus-Ticket-1032-V5\bin\Release\EPPlus-Ticket-1032-V5.exe
+      continue-on-error: true
 
     - name: Run V8 Generation
       run: .\EPPlus-Ticket-1032-V8\bin\Release\EPPlus-Ticket-1032-V8.exe
+      continue-on-error: true
 
     - name: Move Excel Files
       run: |
-        if not exist "output" mkdir output
-        move "%USERPROFILE%\Desktop\Test V5*.xlsx" output\ 2>nul || echo No V5 files found
-        move "%USERPROFILE%\Desktop\Test V7*.xlsx" output\ 2>nul || echo No V7 files found
-      shell: cmd
+        $desktopPath = [Environment]::GetFolderPath([Environment+SpecialFolder]::Desktop)
+        Get-ChildItem "$desktopPath\Test V5*.xlsx" -ErrorAction SilentlyContinue | Move-Item -Destination output\ -Force
+        Get-ChildItem "$desktopPath\Test V7*.xlsx" -ErrorAction SilentlyContinue | Move-Item -Destination output\ -Force
+        Write-Host "Files in output directory:"
+        Get-ChildItem output\ -ErrorAction SilentlyContinue
+      shell: pwsh
+      continue-on-error: true
 
     - name: Upload Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
+      if: always()
       with:
         name: Excel Files
         path: output/
+        if-no-files-found: warn
+        retention-days: 30
 
     - name: Commit and Push (if files changed)
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add output/
+        git add output/ -f
         git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Auto-generated Excel files" && git push)
+      shell: pwsh
       continue-on-error: true
