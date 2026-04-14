@@ -1,5 +1,4 @@
-﻿Imports System.ComponentModel
-Imports System.ComponentModel.DataAnnotations
+﻿Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 Imports System.Xml.Serialization
 Imports EPPlus_Ticket_1032_V8_Fix.My.Resources
@@ -11,61 +10,44 @@ Public MustInherit Class RegistroBaseViewModel
     <EpplusTableColumn(Order:=-100)>
     Public ReadOnly Property Id As Integer
 
-    <EpplusTableColumn(Order:=-90)>
-    <Display(Name:=NameOf(IdiomaRegistro.NumReg), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.NumReg), ResourceType:=GetType(IdiomaRegistro), Order:=-90)>
     Public ReadOnly Property NumRegistro As Integer?
 
-    <EpplusTableColumn(Order:=-60)>
-    <Display(Name:=NameOf(IdiomaComun.Resumen), ResourceType:=GetType(IdiomaComun))>
+    <Display(Name:=NameOf(IdiomaComun.Resumen), ResourceType:=GetType(IdiomaComun), Order:=-60)>
     Public ReadOnly Property Resumen As String
 
-
-    <EpplusTableColumn(Order:=-55)>
-    <Display(Name:=NameOf(IdiomaRegistro.Asunto), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.Asunto), ResourceType:=GetType(IdiomaRegistro), Order:=-55)>
     Public ReadOnly Property Asunto As String
 
-    <EpplusTableColumn(Order:=-50)>
-    <Display(Name:=NameOf(IdiomaRegistro.UnidadOrganica), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.UnidadOrganica), ResourceType:=GetType(IdiomaRegistro), Order:=-50)>
     Public ReadOnly Property UnidadOrganica As String
 
-    <EpplusTableColumn(Order:=-45)>
-    <Display(Name:=NameOf(IdiomaRegistro.Oficina), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.Oficina), ResourceType:=GetType(IdiomaRegistro), Order:=-45)>
     Public ReadOnly Property OficinaOrigenDescripcion As String
 
-
-    <EpplusTableColumn(Order:=100)>
-    <Display(Name:=NameOf(IdiomaRegistro.Completo), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.Completo), ResourceType:=GetType(IdiomaRegistro), Order:=100)>
     Public ReadOnly Property FechaCompleto As Date?
 
-    <EpplusTableColumn(Order:=110)>
-    <Display(Name:=NameOf(IdiomaRegistro.Archivado), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.Archivado), ResourceType:=GetType(IdiomaRegistro), Order:=110)>
     Public ReadOnly Property Archivado As Boolean
 
-
-    <EpplusTableColumn(Order:=120)>
-    <Display(Name:=NameOf(IdiomaRegistro.Completo), ResourceType:=GetType(IdiomaRegistro)), UIHint("booleano")>
+    <Display(Name:=NameOf(IdiomaRegistro.Completo), ResourceType:=GetType(IdiomaRegistro), Order:=120), UIHint("booleano")>
     Public ReadOnly Property Completo As Boolean
 
-    <EpplusTableColumn(Order:=130)>
-    <Display(Name:=NameOf(IdiomaRegistro.Factura), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.Factura), ResourceType:=GetType(IdiomaRegistro), Order:=130)>
     Public ReadOnly Property Factura As Boolean
 
-    <EpplusTableColumn(Order:=-40)>
-    <Display(Name:=NameOf(IdiomaComun.Fecha), ResourceType:=GetType(IdiomaComun))>
+    <Display(Name:=NameOf(IdiomaComun.Fecha), ResourceType:=GetType(IdiomaComun), Order:=-40)>
     Public ReadOnly Property FechaSistema As Date
 
-    <EpplusTableColumn(Order:=140)>
-    <Display(Name:=NameOf(IdiomaRegistro.NumFactura), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.NumFactura), ResourceType:=GetType(IdiomaRegistro), Order:=140)>
     Public ReadOnly Property NumFactura As String
 
-    <EpplusTableColumn(Order:=150)>
-    <Display(Name:=NameOf(IdiomaRegistro.ImporteFactura), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.ImporteFactura), ResourceType:=GetType(IdiomaRegistro), Order:=150)>
     Public ReadOnly Property ImporteFactura As Decimal?
 
-    <EpplusTableColumn(Order:=160)>
-    <Display(Name:=NameOf(IdiomaRegistro.SufijoRemiteDestino), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.SufijoRemiteDestino), ResourceType:=GetType(IdiomaRegistro), Order:=160)>
     Public ReadOnly Property SufijoRemiteDestino As String
-
 
     Public Enum TipoEstadoRegistroColumnaIndice
         Incompleto = 1
@@ -77,25 +59,19 @@ Public MustInherit Class RegistroBaseViewModel
         Sir = 7
     End Enum
 
-    <EpplusTableColumn(Order:=170)>
-    <Display(Name:=NameOf(IdiomaComun.Estado), ResourceType:=GetType(IdiomaComun))>
+    <Display(Name:=NameOf(IdiomaComun.Estado), ResourceType:=GetType(IdiomaComun), Order:=170)>
     Public ReadOnly Property EstadoRegistro As TipoEstadoRegistroColumnaIndice
-
 
     <EpplusTableColumn(Order:=180)>
     Public ReadOnly Property ArchivadoObservaciones As String
 
-
-    <EpplusTableColumn(Order:=190)>
-    <Display(Name:=NameOf(IdiomaRegistro.Devuelto), ResourceType:=GetType(IdiomaRegistro))>
+    <Display(Name:=NameOf(IdiomaRegistro.Devuelto), ResourceType:=GetType(IdiomaRegistro), Order:=190)>
     Public ReadOnly Property ObservacionesDevolucion As String
-    
 
     Public ReadOnly Property SEGEX As String
 
     <Display(Name:=NameOf(IdiomaRegistro.Pago), ResourceType:=GetType(IdiomaRegistro))>
     Public ReadOnly Property Pago As String
-
 
     <Display(Name:=NameOf(IdiomaComun.Fecha), ResourceType:=GetType(IdiomaComun))>
     Public ReadOnly Property FechaPago As String
