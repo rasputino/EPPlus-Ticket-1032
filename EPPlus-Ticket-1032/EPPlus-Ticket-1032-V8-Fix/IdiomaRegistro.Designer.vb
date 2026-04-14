@@ -43,7 +43,7 @@ Namespace My.Resources
         Public Shared ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
             Get
                 If Object.ReferenceEquals(resourceMan, Nothing) Then
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("DipuAlba.Seres.Idioma.IdiomaRegistro", GetType(IdiomaRegistro).Assembly)
+                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("EPPlus_Ticket_1032_V8_Fix.IdiomaRegistro", GetType(IdiomaRegistro).Assembly)
                     resourceMan = temp
                 End If
                 Return resourceMan
@@ -1663,6 +1663,15 @@ Namespace My.Resources
         Public Shared ReadOnly Property FechaArchivado() As String
             Get
                 Return ResourceManager.GetString("FechaArchivado", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Fecha completo.
+        '''</summary>
+        Public Shared ReadOnly Property FechaCompleto() As String
+            Get
+                Return ResourceManager.GetString("FechaCompleto", resourceCulture)
             End Get
         End Property
         

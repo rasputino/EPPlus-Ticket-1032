@@ -25,7 +25,7 @@ Public MustInherit Class RegistroBaseViewModel
     <Display(Name:=NameOf(IdiomaRegistro.Oficina), ResourceType:=GetType(IdiomaRegistro), Order:=-45)>
     Public ReadOnly Property OficinaOrigenDescripcion As String
 
-    <Display(Name:=NameOf(IdiomaRegistro.Completo), ResourceType:=GetType(IdiomaRegistro), Order:=100)>
+    <Display(Name:=NameOf(IdiomaRegistro.FechaCompleto), ResourceType:=GetType(IdiomaRegistro), Order:=100)>
     Public ReadOnly Property FechaCompleto As Date?
 
     <Display(Name:=NameOf(IdiomaRegistro.Archivado), ResourceType:=GetType(IdiomaRegistro), Order:=110)>
