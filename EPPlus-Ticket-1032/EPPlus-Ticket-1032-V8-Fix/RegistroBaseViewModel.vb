@@ -73,7 +73,7 @@ Public MustInherit Class RegistroBaseViewModel
     <Display(Name:=NameOf(IdiomaRegistro.Pago), ResourceType:=GetType(IdiomaRegistro))>
     Public ReadOnly Property Pago As String
 
-    <Display(Name:=NameOf(IdiomaComun.Fecha), ResourceType:=GetType(IdiomaComun))>
+    <Display(Name:=NameOf(IdiomaRegistro.FechaPago), ResourceType:=GetType(IdiomaRegistro))>
     Public ReadOnly Property FechaPago As String
 
 End Class

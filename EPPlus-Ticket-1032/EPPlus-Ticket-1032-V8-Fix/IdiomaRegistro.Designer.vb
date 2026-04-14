@@ -1757,6 +1757,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Fecha del pago.
+        '''</summary>
+        Public Shared ReadOnly Property FechaPago() As String
+            Get
+                Return ResourceManager.GetString("FechaPago", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Fecha última modificación SERES.
         '''</summary>
         Public Shared ReadOnly Property FechaUltimaModificacionSeres() As String

@@ -1497,4 +1497,7 @@ Actualmente, al estar funcionando de modo experimental, la llamada se realizará
   <data name="FechaCompleto" xml:space="preserve">
     <value>Fecha completo</value>
   </data>
+  <data name="FechaPago" xml:space="preserve">
+    <value>Fecha del pago</value>
+  </data>
 </root>
