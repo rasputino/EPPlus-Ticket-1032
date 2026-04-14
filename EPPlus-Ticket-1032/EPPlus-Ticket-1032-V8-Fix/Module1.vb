@@ -4,8 +4,7 @@ Module Module1
 
     Sub Main()
 
-        ExcelPackage.LicenseContext = LicenseContext.NonCommercial
-
+        ExcelPackage.License.SetNonCommercialOrganization("My Noncommercial organization")
         Dim list = new List(Of RegistroExportacionExcel)()
 
         Dim p = New OfficeOpenXml.ExcelPackage
